@@ -129,11 +129,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -153,7 +153,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #3a3a3a;
+  background-color: #222;
 }
 
 header {
@@ -168,6 +168,14 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   width: 100%;
   height: 1px;
@@ -178,7 +186,7 @@ header .content-wrapper {
 header nav {
   display: flex;
   font-size: 1.125em;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   justify-content: space-around;
   align-items: center;
@@ -190,6 +198,8 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li {
@@ -227,7 +237,7 @@ footer .social-icons p {
 }
 
 footer .copyright {
-margin: 20px 0;
+  margin: 20px 0;
 }
 
 
@@ -237,9 +247,12 @@ margin: 20px 0;
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/jake-melara-30679-unsplash.jpg') center #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -292,6 +305,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -507,6 +522,10 @@ header .content-wrapper {
   width: 100%;
 }
 
+header figure {
+  width: 30%;
+}
+
 header nav {
   width: 20%;
 }
@@ -520,6 +539,10 @@ header nav ul {
 }
 
 /*Hero Area*/
+
+.hero-area {
+  min-height: 600px;
+}
 
 .hero-area h1 {
   font-size: 3em;
@@ -569,6 +592,7 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -584,10 +608,11 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 footer .contact {
@@ -683,7 +708,7 @@ p {
 
 /* Hero Area */
 .hero-area h1 {
-  width: 60%;
+  width: 80%;
   font-size: 3.75em;
 }
 
