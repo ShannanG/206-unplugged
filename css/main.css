@@ -234,6 +234,20 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+footer .fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+  line-height: inherit;
 }
 
 footer .copyright {
@@ -635,6 +649,11 @@ footer .footer-content {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+
+footer .social-icons {
+  justify-content: space-between; 
+  width: 12.5em;
 }
 
 footer .contact {
