@@ -97,6 +97,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   text-align: left;
+  background-color: #222;
 }
 
 ul,
@@ -153,7 +154,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #222;
 }
 
 header {
@@ -540,6 +540,7 @@ input[type=button] {
 h2 {
   font-size: 2.25em;
   line-height: 1.333;
+  margin: 0 0 20px 0;
 }
 
 h3 {
